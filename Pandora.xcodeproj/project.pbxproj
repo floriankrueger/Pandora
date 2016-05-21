@@ -10,7 +10,34 @@
 		DF1CDED71CF0482B0006B594 /* Pandora.h in Headers */ = {isa = PBXBuildFile; fileRef = DF1CDED61CF0482B0006B594 /* Pandora.h */; };
 		DF1CDED81CF0482B0006B594 /* Pandora.h in Headers */ = {isa = PBXBuildFile; fileRef = DF1CDED61CF0482B0006B594 /* Pandora.h */; };
 		DF1CDED91CF0482B0006B594 /* Pandora.h in Headers */ = {isa = PBXBuildFile; fileRef = DF1CDED61CF0482B0006B594 /* Pandora.h */; };
+		DF1CDEE71CF059100006B594 /* Pandora_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDEE61CF059100006B594 /* Pandora_iOSTests.swift */; };
+		DF1CDEE91CF059100006B594 /* Pandora.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF1CDEA61CF047210006B594 /* Pandora.framework */; };
+		DF1CDEF61CF0593D0006B594 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDEF51CF0593D0006B594 /* AppDelegate.swift */; };
+		DF1CDEF81CF0593D0006B594 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDEF71CF0593D0006B594 /* FirstViewController.swift */; };
+		DF1CDEFA1CF0593D0006B594 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDEF91CF0593D0006B594 /* SecondViewController.swift */; };
+		DF1CDEFD1CF0593D0006B594 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF1CDEFB1CF0593D0006B594 /* Main.storyboard */; };
+		DF1CDEFF1CF0593D0006B594 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF1CDEFE1CF0593D0006B594 /* Assets.xcassets */; };
+		DF1CDF021CF0593D0006B594 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF1CDF001CF0593D0006B594 /* LaunchScreen.storyboard */; };
+		DF1CDF0E1CF05AB60006B594 /* Pandora_tvOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF0D1CF05AB60006B594 /* Pandora_tvOSTests.swift */; };
+		DF1CDF101CF05AB60006B594 /* Pandora.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF1CDEC11CF0474E0006B594 /* Pandora.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF1CDEEA1CF059100006B594 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF1CDE9B1CF046CE0006B594 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF1CDEA51CF047210006B594;
+			remoteInfo = "Pandora-iOS";
+		};
+		DF1CDF111CF05AB60006B594 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF1CDE9B1CF046CE0006B594 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF1CDEC01CF0474E0006B594;
+			remoteInfo = "Pandora-tvOS";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		DF1CDEA61CF047210006B594 /* Pandora.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pandora.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +49,20 @@
 		DF1CDED61CF0482B0006B594 /* Pandora.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pandora.h; sourceTree = "<group>"; };
 		DF1CDEDB1CF049B70006B594 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DF1CDEDF1CF049D90006B594 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DF1CDEE41CF059100006B594 /* Pandora-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pandora-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF1CDEE61CF059100006B594 /* Pandora_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pandora_iOSTests.swift; sourceTree = "<group>"; };
+		DF1CDEE81CF059100006B594 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF1CDEF31CF0593D0006B594 /* Pandora-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pandora-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF1CDEF51CF0593D0006B594 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF1CDEF71CF0593D0006B594 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		DF1CDEF91CF0593D0006B594 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		DF1CDEFC1CF0593D0006B594 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF1CDEFE1CF0593D0006B594 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF1CDF011CF0593D0006B594 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF1CDF031CF0593D0006B594 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF1CDF0B1CF05AB60006B594 /* Pandora-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pandora-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF1CDF0D1CF05AB60006B594 /* Pandora_tvOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pandora_tvOSTests.swift; sourceTree = "<group>"; };
+		DF1CDF0F1CF05AB60006B594 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +87,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DF1CDEE11CF059100006B594 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF1CDEE91CF059100006B594 /* Pandora.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF1CDEF01CF0593D0006B594 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF1CDF081CF05AB60006B594 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF1CDF101CF05AB60006B594 /* Pandora.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -54,6 +118,9 @@
 			children = (
 				DF1CDEDA1CF049A90006B594 /* Metadata */,
 				DF1CDEC91CF047630006B594 /* Sources */,
+				DF1CDEF41CF0593D0006B594 /* Pandora-Example */,
+				DF1CDEE51CF059100006B594 /* Pandora-iOSTests */,
+				DF1CDF0C1CF05AB60006B594 /* Pandora-tvOSTests */,
 				DF1CDEA71CF047210006B594 /* Products */,
 			);
 			indentWidth = 2;
@@ -66,6 +133,9 @@
 				DF1CDEA61CF047210006B594 /* Pandora.framework */,
 				DF1CDEB41CF047380006B594 /* Pandora.framework */,
 				DF1CDEC11CF0474E0006B594 /* Pandora.framework */,
+				DF1CDEE41CF059100006B594 /* Pandora-iOSTests.xctest */,
+				DF1CDEF31CF0593D0006B594 /* Pandora-Example.app */,
+				DF1CDF0B1CF05AB60006B594 /* Pandora-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -88,6 +158,38 @@
 				DF1CDEDB1CF049B70006B594 /* README.md */,
 			);
 			name = Metadata;
+			sourceTree = "<group>";
+		};
+		DF1CDEE51CF059100006B594 /* Pandora-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF1CDEE61CF059100006B594 /* Pandora_iOSTests.swift */,
+				DF1CDEE81CF059100006B594 /* Info.plist */,
+			);
+			path = "Pandora-iOSTests";
+			sourceTree = "<group>";
+		};
+		DF1CDEF41CF0593D0006B594 /* Pandora-Example */ = {
+			isa = PBXGroup;
+			children = (
+				DF1CDEF51CF0593D0006B594 /* AppDelegate.swift */,
+				DF1CDEF71CF0593D0006B594 /* FirstViewController.swift */,
+				DF1CDEF91CF0593D0006B594 /* SecondViewController.swift */,
+				DF1CDEFB1CF0593D0006B594 /* Main.storyboard */,
+				DF1CDEFE1CF0593D0006B594 /* Assets.xcassets */,
+				DF1CDF001CF0593D0006B594 /* LaunchScreen.storyboard */,
+				DF1CDF031CF0593D0006B594 /* Info.plist */,
+			);
+			path = "Pandora-Example";
+			sourceTree = "<group>";
+		};
+		DF1CDF0C1CF05AB60006B594 /* Pandora-tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF1CDF0D1CF05AB60006B594 /* Pandora_tvOSTests.swift */,
+				DF1CDF0F1CF05AB60006B594 /* Info.plist */,
+			);
+			path = "Pandora-tvOSTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,12 +276,66 @@
 			productReference = DF1CDEC11CF0474E0006B594 /* Pandora.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		DF1CDEE31CF059100006B594 /* Pandora-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF1CDEEC1CF059100006B594 /* Build configuration list for PBXNativeTarget "Pandora-iOSTests" */;
+			buildPhases = (
+				DF1CDEE01CF059100006B594 /* Sources */,
+				DF1CDEE11CF059100006B594 /* Frameworks */,
+				DF1CDEE21CF059100006B594 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF1CDEEB1CF059100006B594 /* PBXTargetDependency */,
+			);
+			name = "Pandora-iOSTests";
+			productName = "Pandora-iOSTests";
+			productReference = DF1CDEE41CF059100006B594 /* Pandora-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF1CDEF21CF0593D0006B594 /* Pandora-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF1CDF041CF0593D0006B594 /* Build configuration list for PBXNativeTarget "Pandora-Example" */;
+			buildPhases = (
+				DF1CDEEF1CF0593D0006B594 /* Sources */,
+				DF1CDEF01CF0593D0006B594 /* Frameworks */,
+				DF1CDEF11CF0593D0006B594 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pandora-Example";
+			productName = "Pandora-Example";
+			productReference = DF1CDEF31CF0593D0006B594 /* Pandora-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF1CDF0A1CF05AB60006B594 /* Pandora-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF1CDF131CF05AB60006B594 /* Build configuration list for PBXNativeTarget "Pandora-tvOSTests" */;
+			buildPhases = (
+				DF1CDF071CF05AB60006B594 /* Sources */,
+				DF1CDF081CF05AB60006B594 /* Frameworks */,
+				DF1CDF091CF05AB60006B594 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF1CDF121CF05AB60006B594 /* PBXTargetDependency */,
+			);
+			name = "Pandora-tvOSTests";
+			productName = "Pandora-tvOSTests";
+			productReference = DF1CDF0B1CF05AB60006B594 /* Pandora-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		DF1CDE9B1CF046CE0006B594 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				TargetAttributes = {
 					DF1CDEA51CF047210006B594 = {
@@ -191,6 +347,15 @@
 					DF1CDEC01CF0474E0006B594 = {
 						CreatedOnToolsVersion = 7.3;
 					};
+					DF1CDEE31CF059100006B594 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					DF1CDEF21CF0593D0006B594 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					DF1CDF0A1CF05AB60006B594 = {
+						CreatedOnToolsVersion = 7.3;
+					};
 				};
 			};
 			buildConfigurationList = DF1CDE9E1CF046CE0006B594 /* Build configuration list for PBXProject "Pandora" */;
@@ -199,6 +364,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = DF1CDE9A1CF046CE0006B594;
 			productRefGroup = DF1CDEA71CF047210006B594 /* Products */;
@@ -208,6 +374,9 @@
 				DF1CDEA51CF047210006B594 /* Pandora-iOS */,
 				DF1CDEB31CF047380006B594 /* Pandora-watchOS */,
 				DF1CDEC01CF0474E0006B594 /* Pandora-tvOS */,
+				DF1CDEE31CF059100006B594 /* Pandora-iOSTests */,
+				DF1CDEF21CF0593D0006B594 /* Pandora-Example */,
+				DF1CDF0A1CF05AB60006B594 /* Pandora-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -228,6 +397,30 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		DF1CDEBF1CF0474E0006B594 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF1CDEE21CF059100006B594 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF1CDEF11CF0593D0006B594 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF1CDF021CF0593D0006B594 /* LaunchScreen.storyboard in Resources */,
+				DF1CDEFF1CF0593D0006B594 /* Assets.xcassets in Resources */,
+				DF1CDEFD1CF0593D0006B594 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF1CDF091CF05AB60006B594 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,7 +451,65 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DF1CDEE01CF059100006B594 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF1CDEE71CF059100006B594 /* Pandora_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF1CDEEF1CF0593D0006B594 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF1CDEFA1CF0593D0006B594 /* SecondViewController.swift in Sources */,
+				DF1CDEF61CF0593D0006B594 /* AppDelegate.swift in Sources */,
+				DF1CDEF81CF0593D0006B594 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF1CDF071CF05AB60006B594 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF1CDF0E1CF05AB60006B594 /* Pandora_tvOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF1CDEEB1CF059100006B594 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF1CDEA51CF047210006B594 /* Pandora-iOS */;
+			targetProxy = DF1CDEEA1CF059100006B594 /* PBXContainerItemProxy */;
+		};
+		DF1CDF121CF05AB60006B594 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF1CDEC01CF0474E0006B594 /* Pandora-tvOS */;
+			targetProxy = DF1CDF111CF05AB60006B594 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF1CDEFB1CF0593D0006B594 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF1CDEFC1CF0593D0006B594 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF1CDF001CF0593D0006B594 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF1CDF011CF0593D0006B594 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DF1CDE9F1CF046CE0006B594 /* Debug */ = {
@@ -606,6 +857,275 @@
 			};
 			name = Release;
 		};
+		DF1CDEED1CF059100006B594 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Pandora-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.projectserver.Pandora-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF1CDEEE1CF059100006B594 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Pandora-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.projectserver.Pandora-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF1CDF051CF0593D0006B594 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Pandora-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.projectserver.Pandora-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF1CDF061CF0593D0006B594 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Pandora-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.projectserver.Pandora-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF1CDF141CF05AB60006B594 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Pandora-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.projectserver.Pandora-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		DF1CDF151CF05AB60006B594 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Pandora-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.projectserver.Pandora-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -639,6 +1159,30 @@
 			buildConfigurations = (
 				DF1CDEC71CF0474E0006B594 /* Debug */,
 				DF1CDEC81CF0474E0006B594 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DF1CDEEC1CF059100006B594 /* Build configuration list for PBXNativeTarget "Pandora-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF1CDEED1CF059100006B594 /* Debug */,
+				DF1CDEEE1CF059100006B594 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DF1CDF041CF0593D0006B594 /* Build configuration list for PBXNativeTarget "Pandora-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF1CDF051CF0593D0006B594 /* Debug */,
+				DF1CDF061CF0593D0006B594 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DF1CDF131CF05AB60006B594 /* Build configuration list for PBXNativeTarget "Pandora-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF1CDF141CF05AB60006B594 /* Debug */,
+				DF1CDF151CF05AB60006B594 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

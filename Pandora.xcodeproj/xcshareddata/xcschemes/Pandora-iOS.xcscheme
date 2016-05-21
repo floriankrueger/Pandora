@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DF1CDEA51CF047210006B594"
-               BuildableName = "Pandora-iOS.framework"
+               BuildableName = "Pandora.framework"
                BlueprintName = "Pandora-iOS"
                ReferencedContainer = "container:Pandora.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DF1CDEA51CF047210006B594"
-            BuildableName = "Pandora-iOS.framework"
+            BuildableName = "Pandora.framework"
             BlueprintName = "Pandora-iOS"
             ReferencedContainer = "container:Pandora.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DF1CDEA51CF047210006B594"
-            BuildableName = "Pandora-iOS.framework"
+            BuildableName = "Pandora.framework"
             BlueprintName = "Pandora-iOS"
             ReferencedContainer = "container:Pandora.xcodeproj">
          </BuildableReference>
