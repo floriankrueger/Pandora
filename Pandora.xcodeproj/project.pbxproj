@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DF1CDED71CF0482B0006B594 /* Pandora.h in Headers */ = {isa = PBXBuildFile; fileRef = DF1CDED61CF0482B0006B594 /* Pandora.h */; };
-		DF1CDED81CF0482B0006B594 /* Pandora.h in Headers */ = {isa = PBXBuildFile; fileRef = DF1CDED61CF0482B0006B594 /* Pandora.h */; };
-		DF1CDED91CF0482B0006B594 /* Pandora.h in Headers */ = {isa = PBXBuildFile; fileRef = DF1CDED61CF0482B0006B594 /* Pandora.h */; };
 		DF1CDEE71CF059100006B594 /* Pandora_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDEE61CF059100006B594 /* Pandora_iOSTests.swift */; };
 		DF1CDEE91CF059100006B594 /* Pandora.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF1CDEA61CF047210006B594 /* Pandora.framework */; };
 		DF1CDEF61CF0593D0006B594 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDEF51CF0593D0006B594 /* AppDelegate.swift */; };
@@ -20,6 +17,39 @@
 		DF1CDF021CF0593D0006B594 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF1CDF001CF0593D0006B594 /* LaunchScreen.storyboard */; };
 		DF1CDF0E1CF05AB60006B594 /* Pandora_tvOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF0D1CF05AB60006B594 /* Pandora_tvOSTests.swift */; };
 		DF1CDF101CF05AB60006B594 /* Pandora.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF1CDEC11CF0474E0006B594 /* Pandora.framework */; };
+		DF1CDF1D1CF05C070006B594 /* FlatUIColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF1C1CF05C070006B594 /* FlatUIColors.swift */; };
+		DF1CDF1E1CF05C070006B594 /* FlatUIColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF1C1CF05C070006B594 /* FlatUIColors.swift */; };
+		DF1CDF1F1CF05C070006B594 /* FlatUIColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF1C1CF05C070006B594 /* FlatUIColors.swift */; };
+		DF1CDF211CF05C3C0006B594 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF201CF05C3C0006B594 /* Colors.swift */; };
+		DF1CDF221CF05C3C0006B594 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF201CF05C3C0006B594 /* Colors.swift */; };
+		DF1CDF231CF05C3C0006B594 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF201CF05C3C0006B594 /* Colors.swift */; };
+		DF1CDF261CF05C620006B594 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF251CF05C620006B594 /* Coordinator.swift */; };
+		DF1CDF271CF05C620006B594 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF251CF05C620006B594 /* Coordinator.swift */; };
+		DF1CDF281CF05C620006B594 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF251CF05C620006B594 /* Coordinator.swift */; };
+		DF1CDF2B1CF05CA80006B594 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF2A1CF05CA80006B594 /* UIColorExtension.swift */; };
+		DF1CDF2C1CF05CA80006B594 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF2A1CF05CA80006B594 /* UIColorExtension.swift */; };
+		DF1CDF2D1CF05CA80006B594 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF2A1CF05CA80006B594 /* UIColorExtension.swift */; };
+		DF1CDF301CF05CDC0006B594 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF2F1CF05CDC0006B594 /* ViewController.swift */; };
+		DF1CDF311CF05CDC0006B594 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF2F1CF05CDC0006B594 /* ViewController.swift */; };
+		DF1CDF321CF05CDC0006B594 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF2F1CF05CDC0006B594 /* ViewController.swift */; };
+		DF1CDF341CF05CFA0006B594 /* UITableView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF331CF05CFA0006B594 /* UITableView+Reusable.swift */; };
+		DF1CDF351CF05CFA0006B594 /* UITableView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF331CF05CFA0006B594 /* UITableView+Reusable.swift */; };
+		DF1CDF361CF05CFA0006B594 /* UITableView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF331CF05CFA0006B594 /* UITableView+Reusable.swift */; };
+		DF1CDF371CF05D3F0006B594 /* Pandora.h in Headers */ = {isa = PBXBuildFile; fileRef = DF1CDED61CF0482B0006B594 /* Pandora.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF1CDF381CF05D400006B594 /* Pandora.h in Headers */ = {isa = PBXBuildFile; fileRef = DF1CDED61CF0482B0006B594 /* Pandora.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF1CDF391CF05D400006B594 /* Pandora.h in Headers */ = {isa = PBXBuildFile; fileRef = DF1CDED61CF0482B0006B594 /* Pandora.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF1CDF3F1CF05DD10006B594 /* ApplicationDelegateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF3B1CF05DD10006B594 /* ApplicationDelegateUtils.swift */; };
+		DF1CDF401CF05DD10006B594 /* ApplicationDelegateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF3B1CF05DD10006B594 /* ApplicationDelegateUtils.swift */; };
+		DF1CDF411CF05DD10006B594 /* ApplicationDelegateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF3B1CF05DD10006B594 /* ApplicationDelegateUtils.swift */; };
+		DF1CDF421CF05DD10006B594 /* CGUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF3C1CF05DD10006B594 /* CGUtils.swift */; };
+		DF1CDF431CF05DD10006B594 /* CGUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF3C1CF05DD10006B594 /* CGUtils.swift */; };
+		DF1CDF441CF05DD10006B594 /* CGUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF3C1CF05DD10006B594 /* CGUtils.swift */; };
+		DF1CDF451CF05DD10006B594 /* FontUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF3D1CF05DD10006B594 /* FontUtils.swift */; };
+		DF1CDF461CF05DD10006B594 /* FontUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF3D1CF05DD10006B594 /* FontUtils.swift */; };
+		DF1CDF471CF05DD10006B594 /* FontUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF3D1CF05DD10006B594 /* FontUtils.swift */; };
+		DF1CDF481CF05DD10006B594 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF3E1CF05DD10006B594 /* Localization.swift */; };
+		DF1CDF491CF05DD10006B594 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF3E1CF05DD10006B594 /* Localization.swift */; };
+		DF1CDF4A1CF05DD10006B594 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF3E1CF05DD10006B594 /* Localization.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +93,16 @@
 		DF1CDF0B1CF05AB60006B594 /* Pandora-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pandora-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF1CDF0D1CF05AB60006B594 /* Pandora_tvOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pandora_tvOSTests.swift; sourceTree = "<group>"; };
 		DF1CDF0F1CF05AB60006B594 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF1CDF1C1CF05C070006B594 /* FlatUIColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlatUIColors.swift; sourceTree = "<group>"; };
+		DF1CDF201CF05C3C0006B594 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		DF1CDF251CF05C620006B594 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		DF1CDF2A1CF05CA80006B594 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		DF1CDF2F1CF05CDC0006B594 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF1CDF331CF05CFA0006B594 /* UITableView+Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Reusable.swift"; sourceTree = "<group>"; };
+		DF1CDF3B1CF05DD10006B594 /* ApplicationDelegateUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationDelegateUtils.swift; sourceTree = "<group>"; };
+		DF1CDF3C1CF05DD10006B594 /* CGUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGUtils.swift; sourceTree = "<group>"; };
+		DF1CDF3D1CF05DD10006B594 /* FontUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontUtils.swift; sourceTree = "<group>"; };
+		DF1CDF3E1CF05DD10006B594 /* Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +183,11 @@
 		DF1CDEC91CF047630006B594 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				DF1CDF161CF05B900006B594 /* Themes */,
+				DF1CDF241CF05C5A0006B594 /* Coordinator */,
+				DF1CDF291CF05C960006B594 /* Extensions */,
+				DF1CDF2E1CF05CD30006B594 /* UserInterface */,
+				DF1CDF3A1CF05DD10006B594 /* Utils */,
 				DF1CDED61CF0482B0006B594 /* Pandora.h */,
 				DF1CDECA1CF047B60006B594 /* Info-iOS.plist */,
 				DF1CDECB1CF047B60006B594 /* Info-tvOS.plist */,
@@ -192,6 +237,59 @@
 			path = "Pandora-tvOSTests";
 			sourceTree = "<group>";
 		};
+		DF1CDF161CF05B900006B594 /* Themes */ = {
+			isa = PBXGroup;
+			children = (
+				DF1CDF1B1CF05BF20006B594 /* ColorPalettes */,
+			);
+			path = Themes;
+			sourceTree = "<group>";
+		};
+		DF1CDF1B1CF05BF20006B594 /* ColorPalettes */ = {
+			isa = PBXGroup;
+			children = (
+				DF1CDF201CF05C3C0006B594 /* Colors.swift */,
+				DF1CDF1C1CF05C070006B594 /* FlatUIColors.swift */,
+			);
+			path = ColorPalettes;
+			sourceTree = "<group>";
+		};
+		DF1CDF241CF05C5A0006B594 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				DF1CDF251CF05C620006B594 /* Coordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		DF1CDF291CF05C960006B594 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DF1CDF2A1CF05CA80006B594 /* UIColorExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DF1CDF2E1CF05CD30006B594 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				DF1CDF2F1CF05CDC0006B594 /* ViewController.swift */,
+				DF1CDF331CF05CFA0006B594 /* UITableView+Reusable.swift */,
+			);
+			path = UserInterface;
+			sourceTree = "<group>";
+		};
+		DF1CDF3A1CF05DD10006B594 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DF1CDF3B1CF05DD10006B594 /* ApplicationDelegateUtils.swift */,
+				DF1CDF3C1CF05DD10006B594 /* CGUtils.swift */,
+				DF1CDF3D1CF05DD10006B594 /* FontUtils.swift */,
+				DF1CDF3E1CF05DD10006B594 /* Localization.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -199,7 +297,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF1CDED71CF0482B0006B594 /* Pandora.h in Headers */,
+				DF1CDF371CF05D3F0006B594 /* Pandora.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,7 +305,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF1CDED81CF0482B0006B594 /* Pandora.h in Headers */,
+				DF1CDF381CF05D400006B594 /* Pandora.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,7 +313,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF1CDED91CF0482B0006B594 /* Pandora.h in Headers */,
+				DF1CDF391CF05D400006B594 /* Pandora.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +532,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF1CDF301CF05CDC0006B594 /* ViewController.swift in Sources */,
+				DF1CDF261CF05C620006B594 /* Coordinator.swift in Sources */,
+				DF1CDF1D1CF05C070006B594 /* FlatUIColors.swift in Sources */,
+				DF1CDF421CF05DD10006B594 /* CGUtils.swift in Sources */,
+				DF1CDF451CF05DD10006B594 /* FontUtils.swift in Sources */,
+				DF1CDF2B1CF05CA80006B594 /* UIColorExtension.swift in Sources */,
+				DF1CDF481CF05DD10006B594 /* Localization.swift in Sources */,
+				DF1CDF341CF05CFA0006B594 /* UITableView+Reusable.swift in Sources */,
+				DF1CDF211CF05C3C0006B594 /* Colors.swift in Sources */,
+				DF1CDF3F1CF05DD10006B594 /* ApplicationDelegateUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +549,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF1CDF311CF05CDC0006B594 /* ViewController.swift in Sources */,
+				DF1CDF271CF05C620006B594 /* Coordinator.swift in Sources */,
+				DF1CDF1E1CF05C070006B594 /* FlatUIColors.swift in Sources */,
+				DF1CDF431CF05DD10006B594 /* CGUtils.swift in Sources */,
+				DF1CDF461CF05DD10006B594 /* FontUtils.swift in Sources */,
+				DF1CDF2C1CF05CA80006B594 /* UIColorExtension.swift in Sources */,
+				DF1CDF491CF05DD10006B594 /* Localization.swift in Sources */,
+				DF1CDF351CF05CFA0006B594 /* UITableView+Reusable.swift in Sources */,
+				DF1CDF221CF05C3C0006B594 /* Colors.swift in Sources */,
+				DF1CDF401CF05DD10006B594 /* ApplicationDelegateUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +566,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF1CDF321CF05CDC0006B594 /* ViewController.swift in Sources */,
+				DF1CDF281CF05C620006B594 /* Coordinator.swift in Sources */,
+				DF1CDF1F1CF05C070006B594 /* FlatUIColors.swift in Sources */,
+				DF1CDF441CF05DD10006B594 /* CGUtils.swift in Sources */,
+				DF1CDF471CF05DD10006B594 /* FontUtils.swift in Sources */,
+				DF1CDF2D1CF05CA80006B594 /* UIColorExtension.swift in Sources */,
+				DF1CDF4A1CF05DD10006B594 /* Localization.swift in Sources */,
+				DF1CDF361CF05CFA0006B594 /* UITableView+Reusable.swift in Sources */,
+				DF1CDF231CF05C3C0006B594 /* Colors.swift in Sources */,
+				DF1CDF411CF05DD10006B594 /* ApplicationDelegateUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
