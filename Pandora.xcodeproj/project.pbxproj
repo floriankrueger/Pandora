@@ -24,22 +24,18 @@
 		DF1CDF221CF05C3C0006B594 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF201CF05C3C0006B594 /* Colors.swift */; };
 		DF1CDF231CF05C3C0006B594 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF201CF05C3C0006B594 /* Colors.swift */; };
 		DF1CDF261CF05C620006B594 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF251CF05C620006B594 /* Coordinator.swift */; };
-		DF1CDF271CF05C620006B594 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF251CF05C620006B594 /* Coordinator.swift */; };
 		DF1CDF281CF05C620006B594 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF251CF05C620006B594 /* Coordinator.swift */; };
 		DF1CDF2B1CF05CA80006B594 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF2A1CF05CA80006B594 /* UIColorExtension.swift */; };
 		DF1CDF2C1CF05CA80006B594 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF2A1CF05CA80006B594 /* UIColorExtension.swift */; };
 		DF1CDF2D1CF05CA80006B594 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF2A1CF05CA80006B594 /* UIColorExtension.swift */; };
 		DF1CDF301CF05CDC0006B594 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF2F1CF05CDC0006B594 /* ViewController.swift */; };
-		DF1CDF311CF05CDC0006B594 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF2F1CF05CDC0006B594 /* ViewController.swift */; };
 		DF1CDF321CF05CDC0006B594 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF2F1CF05CDC0006B594 /* ViewController.swift */; };
 		DF1CDF341CF05CFA0006B594 /* UITableView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF331CF05CFA0006B594 /* UITableView+Reusable.swift */; };
-		DF1CDF351CF05CFA0006B594 /* UITableView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF331CF05CFA0006B594 /* UITableView+Reusable.swift */; };
 		DF1CDF361CF05CFA0006B594 /* UITableView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF331CF05CFA0006B594 /* UITableView+Reusable.swift */; };
 		DF1CDF371CF05D3F0006B594 /* Pandora.h in Headers */ = {isa = PBXBuildFile; fileRef = DF1CDED61CF0482B0006B594 /* Pandora.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF1CDF381CF05D400006B594 /* Pandora.h in Headers */ = {isa = PBXBuildFile; fileRef = DF1CDED61CF0482B0006B594 /* Pandora.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF1CDF391CF05D400006B594 /* Pandora.h in Headers */ = {isa = PBXBuildFile; fileRef = DF1CDED61CF0482B0006B594 /* Pandora.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF1CDF3F1CF05DD10006B594 /* ApplicationDelegateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF3B1CF05DD10006B594 /* ApplicationDelegateUtils.swift */; };
-		DF1CDF401CF05DD10006B594 /* ApplicationDelegateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF3B1CF05DD10006B594 /* ApplicationDelegateUtils.swift */; };
 		DF1CDF411CF05DD10006B594 /* ApplicationDelegateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF3B1CF05DD10006B594 /* ApplicationDelegateUtils.swift */; };
 		DF1CDF421CF05DD10006B594 /* CGUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF3C1CF05DD10006B594 /* CGUtils.swift */; };
 		DF1CDF431CF05DD10006B594 /* CGUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF3C1CF05DD10006B594 /* CGUtils.swift */; };
@@ -549,16 +545,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF1CDF311CF05CDC0006B594 /* ViewController.swift in Sources */,
-				DF1CDF271CF05C620006B594 /* Coordinator.swift in Sources */,
 				DF1CDF1E1CF05C070006B594 /* FlatUIColors.swift in Sources */,
 				DF1CDF431CF05DD10006B594 /* CGUtils.swift in Sources */,
 				DF1CDF461CF05DD10006B594 /* FontUtils.swift in Sources */,
 				DF1CDF2C1CF05CA80006B594 /* UIColorExtension.swift in Sources */,
 				DF1CDF491CF05DD10006B594 /* Localization.swift in Sources */,
-				DF1CDF351CF05CFA0006B594 /* UITableView+Reusable.swift in Sources */,
 				DF1CDF221CF05C3C0006B594 /* Colors.swift in Sources */,
-				DF1CDF401CF05DD10006B594 /* ApplicationDelegateUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

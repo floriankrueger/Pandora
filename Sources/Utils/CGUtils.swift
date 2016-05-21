@@ -44,7 +44,7 @@ public func polygonPointArray(sides: Int, x: CGFloat, y: CGFloat, radius: CGFloa
     let xpo = cx + r * cos(angle * CGFloat(i) - radians(offset))
     let ypo = cy + r * sin(angle * CGFloat(i) - radians(offset))
     points.append(CGPoint(x: xpo, y: ypo))
-    i++
+    i+=1
   }
   return points
 }
