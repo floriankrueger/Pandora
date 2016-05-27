@@ -46,6 +46,8 @@
 		DF1CDF481CF05DD10006B594 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF3E1CF05DD10006B594 /* Localization.swift */; };
 		DF1CDF491CF05DD10006B594 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF3E1CF05DD10006B594 /* Localization.swift */; };
 		DF1CDF4A1CF05DD10006B594 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF3E1CF05DD10006B594 /* Localization.swift */; };
+		DFF05F1C1CF8D89500E397C6 /* UIImageExtension.swift in Resources */ = {isa = PBXBuildFile; fileRef = DFF05F1B1CF8D89500E397C6 /* UIImageExtension.swift */; };
+		DFF05F1E1CF8D89E00E397C6 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF05F1B1CF8D89500E397C6 /* UIImageExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +101,7 @@
 		DF1CDF3C1CF05DD10006B594 /* CGUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGUtils.swift; sourceTree = "<group>"; };
 		DF1CDF3D1CF05DD10006B594 /* FontUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontUtils.swift; sourceTree = "<group>"; };
 		DF1CDF3E1CF05DD10006B594 /* Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+		DFF05F1B1CF8D89500E397C6 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -261,6 +264,7 @@
 		DF1CDF291CF05C960006B594 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				DFF05F1B1CF8D89500E397C6 /* UIImageExtension.swift */,
 				DF1CDF2A1CF05CA80006B594 /* UIColorExtension.swift */,
 			);
 			path = Extensions;
@@ -480,6 +484,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFF05F1C1CF8D89500E397C6 /* UIImageExtension.swift in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -562,6 +567,7 @@
 				DF1CDF281CF05C620006B594 /* Coordinator.swift in Sources */,
 				DF1CDF1F1CF05C070006B594 /* FlatUIColors.swift in Sources */,
 				DF1CDF441CF05DD10006B594 /* CGUtils.swift in Sources */,
+				DFF05F1E1CF8D89E00E397C6 /* UIImageExtension.swift in Sources */,
 				DF1CDF471CF05DD10006B594 /* FontUtils.swift in Sources */,
 				DF1CDF2D1CF05CA80006B594 /* UIColorExtension.swift in Sources */,
 				DF1CDF4A1CF05DD10006B594 /* Localization.swift in Sources */,
@@ -1265,6 +1271,7 @@
 				DF1CDEAE1CF047210006B594 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF1CDEB91CF047380006B594 /* Build configuration list for PBXNativeTarget "Pandora-watchOS" */ = {
 			isa = XCConfigurationList;
@@ -1273,6 +1280,7 @@
 				DF1CDEBB1CF047380006B594 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF1CDEC61CF0474E0006B594 /* Build configuration list for PBXNativeTarget "Pandora-tvOS" */ = {
 			isa = XCConfigurationList;
@@ -1281,6 +1289,7 @@
 				DF1CDEC81CF0474E0006B594 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF1CDEEC1CF059100006B594 /* Build configuration list for PBXNativeTarget "Pandora-iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -1289,6 +1298,7 @@
 				DF1CDEEE1CF059100006B594 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF1CDF041CF0593D0006B594 /* Build configuration list for PBXNativeTarget "Pandora-Example" */ = {
 			isa = XCConfigurationList;
@@ -1297,6 +1307,7 @@
 				DF1CDF061CF0593D0006B594 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF1CDF131CF05AB60006B594 /* Build configuration list for PBXNativeTarget "Pandora-tvOSTests" */ = {
 			isa = XCConfigurationList;
@@ -1305,6 +1316,7 @@
 				DF1CDF151CF05AB60006B594 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
