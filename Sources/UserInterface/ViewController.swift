@@ -25,6 +25,9 @@ import UIKit
 
 public class ViewController: UIViewController {
   
+  public var statusBarStyle = UIStatusBarStyle.Default
+  public var interfaceOrientations: UIInterfaceOrientationMask = [.Portrait]
+  
   // MARK: - Init
   
   public init() {
@@ -34,6 +37,16 @@ public class ViewController: UIViewController {
   
   required public init?(coder aDecoder: NSCoder) {
     fatalError("storyboards are incompatible with truth and beauty")
+  }
+  
+  // MARK: - UI Configuration
+  
+  override public func preferredStatusBarStyle() -> UIStatusBarStyle {
+    return self.statusBarStyle
+  }
+  
+  override public func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
+    return self.interfaceOrientations
   }
   
   // MARK: - View

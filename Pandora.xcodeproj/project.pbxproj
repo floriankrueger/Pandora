@@ -47,6 +47,7 @@
 		DF1CDF491CF05DD10006B594 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF3E1CF05DD10006B594 /* Localization.swift */; };
 		DF1CDF4A1CF05DD10006B594 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF3E1CF05DD10006B594 /* Localization.swift */; };
 		DFF05F1E1CF8D89E00E397C6 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF05F1B1CF8D89500E397C6 /* UIImageExtension.swift */; };
+		DFF9D0981D32379100D38ED8 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF9D0971D32379100D38ED8 /* NavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +103,7 @@
 		DF1CDF3E1CF05DD10006B594 /* Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
 		DFF05F1B1CF8D89500E397C6 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 		DFF9D08E1D3230D900D38ED8 /* Pandora.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = Pandora.podspec; sourceTree = "<group>"; };
+		DFF9D0971D32379100D38ED8 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -275,6 +277,7 @@
 			isa = PBXGroup;
 			children = (
 				DF1CDF2F1CF05CDC0006B594 /* ViewController.swift */,
+				DFF9D0971D32379100D38ED8 /* NavigationController.swift */,
 				DF1CDF331CF05CFA0006B594 /* UITableView+Reusable.swift */,
 			);
 			path = UserInterface;
@@ -533,6 +536,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFF9D0981D32379100D38ED8 /* NavigationController.swift in Sources */,
 				DF1CDF301CF05CDC0006B594 /* ViewController.swift in Sources */,
 				DF1CDF261CF05C620006B594 /* Coordinator.swift in Sources */,
 				DF1CDF1D1CF05C070006B594 /* FlatUIColors.swift in Sources */,
