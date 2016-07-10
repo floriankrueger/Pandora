@@ -46,7 +46,6 @@
 		DF1CDF481CF05DD10006B594 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF3E1CF05DD10006B594 /* Localization.swift */; };
 		DF1CDF491CF05DD10006B594 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF3E1CF05DD10006B594 /* Localization.swift */; };
 		DF1CDF4A1CF05DD10006B594 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF3E1CF05DD10006B594 /* Localization.swift */; };
-		DFF05F1C1CF8D89500E397C6 /* UIImageExtension.swift in Resources */ = {isa = PBXBuildFile; fileRef = DFF05F1B1CF8D89500E397C6 /* UIImageExtension.swift */; };
 		DFF05F1E1CF8D89E00E397C6 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF05F1B1CF8D89500E397C6 /* UIImageExtension.swift */; };
 /* End PBXBuildFile section */
 
@@ -486,7 +485,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFF05F1C1CF8D89500E397C6 /* UIImageExtension.swift in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
