@@ -102,6 +102,7 @@
 		DF1CDF3D1CF05DD10006B594 /* FontUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontUtils.swift; sourceTree = "<group>"; };
 		DF1CDF3E1CF05DD10006B594 /* Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
 		DFF05F1B1CF8D89500E397C6 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		DFF9D08E1D3230D900D38ED8 /* Pandora.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = Pandora.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +199,7 @@
 		DF1CDEDA1CF049A90006B594 /* Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				DFF9D08E1D3230D900D38ED8 /* Pandora.podspec */,
 				DF1CDEDF1CF049D90006B594 /* LICENSE */,
 				DF1CDEDB1CF049B70006B594 /* README.md */,
 			);
