@@ -23,10 +23,10 @@
 
 import UIKit
 
-public class ViewController: UIViewController {
+open class ViewController: UIViewController {
   
-  public var statusBarStyle = UIStatusBarStyle.Default
-  public var interfaceOrientations: UIInterfaceOrientationMask = [.Portrait]
+  open var statusBarStyle = UIStatusBarStyle.default
+  open var interfaceOrientations: UIInterfaceOrientationMask = [.portrait]
   
   // MARK: - Init
   
@@ -41,17 +41,17 @@ public class ViewController: UIViewController {
   
   // MARK: - UI Configuration
   
-  override public func preferredStatusBarStyle() -> UIStatusBarStyle {
+  override open var preferredStatusBarStyle : UIStatusBarStyle {
     return self.statusBarStyle
   }
   
-  override public func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
+  override open var supportedInterfaceOrientations : UIInterfaceOrientationMask {
     return self.interfaceOrientations
   }
   
   // MARK: - View
   
-  override public func loadView() {
+  override open func loadView() {
     super.loadView()
     self.setupView()
     self.setupSubviews()
@@ -60,19 +60,19 @@ public class ViewController: UIViewController {
   
   // MARK: - Setup & Layout
   
-  public func setup() {
+  open func setup() {
     
   }
   
-  public func setupView() {
+  open func setupView() {
     
   }
   
-  public func setupSubviews() {
+  open func setupSubviews() {
     
   }
   
-  public func setupLayout() {
+  open func setupLayout() {
     
   }
   

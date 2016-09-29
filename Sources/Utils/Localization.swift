@@ -23,10 +23,10 @@
 
 import Foundation
 
-public func l(key: String) -> String {
+public func l(_ key: String) -> String {
   return NSLocalizedString(key, comment: "")
 }
 
-public func lf(key: String, args: [CVarArgType]) -> String {
+public func lf(_ key: String, args: [CVarArg]) -> String {
   return String(format: NSLocalizedString(key + ".fmt", comment: ""), arguments: args)
 }

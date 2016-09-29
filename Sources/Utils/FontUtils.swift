@@ -25,10 +25,10 @@ import Foundation
 
 public struct FontUtils {
   public static func listAllFonts() {
-    let fontFamilies = UIFont.familyNames()
+    let fontFamilies = UIFont.familyNames
     
     for fontFamily in fontFamilies {
-      let fontNames = UIFont.fontNamesForFamilyName(fontFamily)
+      let fontNames = UIFont.fontNames(forFamilyName: fontFamily)
       print("\(fontFamily) (\(fontNames.count))")
       for name in fontNames {
         print(" - \(name)")

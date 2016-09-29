@@ -23,17 +23,17 @@
 
 import Foundation
 
-public func radians(float: CGFloat) -> CGFloat {
+public func radians(_ float: CGFloat) -> CGFloat {
   return CGFloat(M_PI) * (float/180)
 }
 
-public func radians(double: Double) -> Double {
+public func radians(_ double: Double) -> Double {
   return M_PI * (double/180)
 }
 
 // @see http://sketchytech.blogspot.in/2014/11/swift-drawing-regular-polygons-with.html
 //
-public func polygonPointArray(sides: Int, x: CGFloat, y: CGFloat, radius: CGFloat, offset: CGFloat) -> [CGPoint] {
+public func polygonPointArray(_ sides: Int, x: CGFloat, y: CGFloat, radius: CGFloat, offset: CGFloat) -> [CGPoint] {
   let angle = radians((360/CGFloat(sides)))
   let cx = x // x origin
   let cy = y // y origin

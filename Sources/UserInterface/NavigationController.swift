@@ -7,18 +7,18 @@
 
 import UIKit
 
-public class NavigationController: UINavigationController {
+open class NavigationController: UINavigationController {
   
-  public var statusBarStyle = UIStatusBarStyle.Default
-  public var interfaceOrientations: UIInterfaceOrientationMask = [.Portrait]
+  open var statusBarStyle = UIStatusBarStyle.default
+  open var interfaceOrientations: UIInterfaceOrientationMask = [.portrait]
   
   // MARK: - UI Configuration
   
-  override public func preferredStatusBarStyle() -> UIStatusBarStyle {
+  override open var preferredStatusBarStyle : UIStatusBarStyle {
     return self.statusBarStyle
   }
   
-  override public func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
+  override open var supportedInterfaceOrientations : UIInterfaceOrientationMask {
     return self.interfaceOrientations
   }
   

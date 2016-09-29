@@ -25,8 +25,8 @@ import UIKit
 
 public struct ApplicationDelegateUtils {
 
-  public static func setupWindowWithRootViewController(rootViewController: UIViewController, wrapInNavigationController: Bool = false) -> UIWindow {
-    let window = UIWindow(frame:UIScreen.mainScreen().bounds)
+  public static func setupWindowWithRootViewController(_ rootViewController: UIViewController, wrapInNavigationController: Bool = false) -> UIWindow {
+    let window = UIWindow(frame:UIScreen.main.bounds)
 
     if wrapInNavigationController {
       window.rootViewController = UINavigationController(rootViewController: rootViewController)

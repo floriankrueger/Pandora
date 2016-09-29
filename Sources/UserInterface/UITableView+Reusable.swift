@@ -35,19 +35,19 @@ public protocol Reusable: class {
 
 public extension UITableView {
   
-  public func registerReusable<T: Reusable>(cellClass: T.Type) {
-    registerClass(cellClass, forCellReuseIdentifier: cellClass.reuseIdentifier)
+  public func registerReusable<T: Reusable>(_ cellClass: T.Type) {
+    register(cellClass, forCellReuseIdentifier: cellClass.reuseIdentifier)
   }
   
-  public func dequeueReusable<T: Reusable>(cellClass: T.Type) -> T {
-    guard let cell = dequeueReusableCellWithIdentifier(cellClass.reuseIdentifier) as? T else {
+  public func dequeueReusable<T: Reusable>(_ cellClass: T.Type) -> T {
+    guard let cell = dequeueReusableCell(withIdentifier: cellClass.reuseIdentifier) as? T else {
       fatalError("Misconfigured cell type, \(cellClass)!")
     }
     return cell
   }
   
-  public func dequeueReusable<T: Reusable>(cellClass: T.Type, forIndexPath indexPath: NSIndexPath) -> T {
-    guard let cell = dequeueReusableCellWithIdentifier(cellClass.reuseIdentifier, forIndexPath: indexPath) as? T else {
+  public func dequeueReusable<T: Reusable>(_ cellClass: T.Type, forIndexPath indexPath: IndexPath) -> T {
+    guard let cell = dequeueReusableCell(withIdentifier: cellClass.reuseIdentifier, for: indexPath) as? T else {
       fatalError("Misconfigured cell type, \(cellClass)!")
     }
     return cell
