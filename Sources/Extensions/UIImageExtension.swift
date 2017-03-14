@@ -24,56 +24,56 @@
 import UIKit
 
 public extension UIImage {
-  public class func solidColor(color color: UIColor, size: CGSize) -> UIImage {
+  public static func solidColor(color: UIColor, size: CGSize) -> UIImage {
     let rect = CGRect(x: 0, y: 0, width: size.width, height: size.height)
     UIGraphicsBeginImageContext(rect.size)
     let context = UIGraphicsGetCurrentContext()
     
-    CGContextSetFillColorWithColor(context, color.CGColor)
-    CGContextFillRect(context, rect)
+    context!.setFillColor(color.cgColor)
+    context!.fill(rect)
     
     let image = UIGraphicsGetImageFromCurrentImageContext()
     UIGraphicsEndImageContext()
     
-    return image
+    return image!
   }
   
-  public class func pixel(color color: UIColor) -> UIImage {
+  public static func pixel(color: UIColor) -> UIImage {
     return solidColor(color: color, size: CGSize(width: 1, height: 1))
   }
 
   public func tint(color: UIColor) -> UIImage
   {
-    UIGraphicsBeginImageContextWithOptions (self.size, false, UIScreen.mainScreen().scale)
+    UIGraphicsBeginImageContextWithOptions (self.size, false, UIScreen.main.scale)
     let context = UIGraphicsGetCurrentContext()
 
-    CGContextTranslateCTM(context, 0, self.size.height)
-    CGContextScaleCTM(context, 1.0, -1.0)
+    context!.translateBy(x: 0, y: self.size.height)
+    context!.scaleBy(x: 1.0, y: -1.0)
 
-    let rect = CGRectMake(0, 0, self.size.width, self.size.height)
+    let rect = CGRect(x: 0, y: 0, width: self.size.width, height: self.size.height)
 
     // draw tint color
-    CGContextSetBlendMode(context, .Normal)
+    context!.setBlendMode(.normal)
     color.setFill()
-    CGContextFillRect(context, rect)
+    context!.fill(rect)
 
     // mask by alpha values of original image
-    CGContextSetBlendMode(context, .DestinationIn)
-    CGContextDrawImage(context, rect, self.CGImage)
+    context!.setBlendMode(.destinationIn)
+    context!.draw(self.cgImage!, in: rect)
 
     let coloredImage = UIGraphicsGetImageFromCurrentImageContext()
     UIGraphicsEndImageContext()
     
-    return coloredImage
+    return coloredImage!
   }
 
   public func rotateByDegrees(degrees: CGFloat) -> UIImage {
     let radians = degrees * CGFloat(M_PI) / 180
-    let scale = UIScreen.mainScreen().scale
+    let scale = UIScreen.main.scale
 
     // calculate the size of the rotated view's containing box for our drawing space
     let rotatedViewBox = UIView(frame: CGRect(x: 0.0, y: 0.0, width: self.size.width, height: self.size.height))
-    let t = CGAffineTransformMakeRotation(radians)
+    let t = CGAffineTransform(rotationAngle: radians)
     rotatedViewBox.transform = t
     let rotatedSize = rotatedViewBox.frame.size
 
@@ -82,17 +82,19 @@ public extension UIImage {
     let bitmap = UIGraphicsGetCurrentContext()
 
     // Move the origin to the middle of the image so we will rotate and scale around the center.
-    CGContextTranslateCTM(bitmap, rotatedSize.width/2, rotatedSize.height/2)
+    bitmap!.translateBy(x: rotatedSize.width/2, y: rotatedSize.height/2)
 
     // Rotate the image context
-    CGContextRotateCTM(bitmap, radians)
+    bitmap!.rotate(by: radians)
 
     // Now, draw the rotated/scaled image into the context
-    CGContextScaleCTM(bitmap, 1.0, -1.0)
-    CGContextDrawImage(bitmap, CGRectMake(-self.size.width / 2, -self.size.height / 2, self.size.width, self.size.height), self.CGImage)
+    bitmap!.scaleBy(x: 1.0, y: -1.0)
+    
+    let rect = CGRect(x: -self.size.width / 2, y: -self.size.height / 2, width: self.size.width, height: self.size.height)
+    bitmap!.draw(self.cgImage!, in: rect)
 
     let newImage = UIGraphicsGetImageFromCurrentImageContext()
     UIGraphicsEndImageContext()
-    return newImage
+    return newImage!
   }
 }

@@ -46,7 +46,9 @@
 		DF1CDF481CF05DD10006B594 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF3E1CF05DD10006B594 /* Localization.swift */; };
 		DF1CDF491CF05DD10006B594 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF3E1CF05DD10006B594 /* Localization.swift */; };
 		DF1CDF4A1CF05DD10006B594 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF3E1CF05DD10006B594 /* Localization.swift */; };
-		DFF05F1E1CF8D89E00E397C6 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF05F1B1CF8D89500E397C6 /* UIImageExtension.swift */; };
+		DF68A84B1E784B500075CE70 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF05F1B1CF8D89500E397C6 /* UIImageExtension.swift */; };
+		DF68A84C1E784B540075CE70 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF05F1B1CF8D89500E397C6 /* UIImageExtension.swift */; };
+		DF68A84D1E784B540075CE70 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF05F1B1CF8D89500E397C6 /* UIImageExtension.swift */; };
 		DFF9D0981D32379100D38ED8 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF9D0971D32379100D38ED8 /* NavigationController.swift */; };
 /* End PBXBuildFile section */
 
@@ -442,7 +444,7 @@
 				TargetAttributes = {
 					DF1CDEA51CF047210006B594 = {
 						CreatedOnToolsVersion = 7.3;
-						LastSwiftMigration = 0810;
+						LastSwiftMigration = 0820;
 					};
 					DF1CDEB31CF047380006B594 = {
 						CreatedOnToolsVersion = 7.3;
@@ -549,6 +551,7 @@
 				DF1CDF341CF05CFA0006B594 /* UITableView+Reusable.swift in Sources */,
 				DF1CDF211CF05C3C0006B594 /* Colors.swift in Sources */,
 				DF1CDF3F1CF05DD10006B594 /* ApplicationDelegateUtils.swift in Sources */,
+				DF68A84B1E784B500075CE70 /* UIImageExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,6 +561,7 @@
 			files = (
 				DF1CDF1E1CF05C070006B594 /* FlatUIColors.swift in Sources */,
 				DF1CDF431CF05DD10006B594 /* CGUtils.swift in Sources */,
+				DF68A84C1E784B540075CE70 /* UIImageExtension.swift in Sources */,
 				DF1CDF461CF05DD10006B594 /* FontUtils.swift in Sources */,
 				DF1CDF2C1CF05CA80006B594 /* UIColorExtension.swift in Sources */,
 				DF1CDF491CF05DD10006B594 /* Localization.swift in Sources */,
@@ -573,7 +577,7 @@
 				DF1CDF281CF05C620006B594 /* Coordinator.swift in Sources */,
 				DF1CDF1F1CF05C070006B594 /* FlatUIColors.swift in Sources */,
 				DF1CDF441CF05DD10006B594 /* CGUtils.swift in Sources */,
-				DFF05F1E1CF8D89E00E397C6 /* UIImageExtension.swift in Sources */,
+				DF68A84D1E784B540075CE70 /* UIImageExtension.swift in Sources */,
 				DF1CDF471CF05DD10006B594 /* FontUtils.swift in Sources */,
 				DF1CDF2D1CF05CA80006B594 /* UIColorExtension.swift in Sources */,
 				DF1CDF4A1CF05DD10006B594 /* Localization.swift in Sources */,
