@@ -17,12 +17,6 @@
 		DF1CDF021CF0593D0006B594 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF1CDF001CF0593D0006B594 /* LaunchScreen.storyboard */; };
 		DF1CDF0E1CF05AB60006B594 /* Pandora_tvOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF0D1CF05AB60006B594 /* Pandora_tvOSTests.swift */; };
 		DF1CDF101CF05AB60006B594 /* Pandora.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF1CDEC11CF0474E0006B594 /* Pandora.framework */; };
-		DF1CDF1D1CF05C070006B594 /* FlatUIColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF1C1CF05C070006B594 /* FlatUIColors.swift */; };
-		DF1CDF1E1CF05C070006B594 /* FlatUIColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF1C1CF05C070006B594 /* FlatUIColors.swift */; };
-		DF1CDF1F1CF05C070006B594 /* FlatUIColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF1C1CF05C070006B594 /* FlatUIColors.swift */; };
-		DF1CDF211CF05C3C0006B594 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF201CF05C3C0006B594 /* Colors.swift */; };
-		DF1CDF221CF05C3C0006B594 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF201CF05C3C0006B594 /* Colors.swift */; };
-		DF1CDF231CF05C3C0006B594 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF201CF05C3C0006B594 /* Colors.swift */; };
 		DF1CDF261CF05C620006B594 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF251CF05C620006B594 /* Coordinator.swift */; };
 		DF1CDF281CF05C620006B594 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF251CF05C620006B594 /* Coordinator.swift */; };
 		DF1CDF2B1CF05CA80006B594 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1CDF2A1CF05CA80006B594 /* UIColorExtension.swift */; };
@@ -49,6 +43,11 @@
 		DF68A84B1E784B500075CE70 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF05F1B1CF8D89500E397C6 /* UIImageExtension.swift */; };
 		DF68A84C1E784B540075CE70 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF05F1B1CF8D89500E397C6 /* UIImageExtension.swift */; };
 		DF68A84D1E784B540075CE70 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF05F1B1CF8D89500E397C6 /* UIImageExtension.swift */; };
+		DF68A8601E7852DC0075CE70 /* FlatUI.Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF68A85F1E7852DC0075CE70 /* FlatUI.Colors.swift */; };
+		DF68A8621E7852EA0075CE70 /* FlatUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF68A8611E7852EA0075CE70 /* FlatUI.swift */; };
+		DF68A8641E78532E0075CE70 /* Themes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF68A8631E78532E0075CE70 /* Themes.swift */; };
+		DF68A8661E78537F0075CE70 /* FlatUI.Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF68A8651E78537F0075CE70 /* FlatUI.Button.swift */; };
+		DF68A8691E78546F0075CE70 /* Lato.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF68A8681E78546F0075CE70 /* Lato.swift */; };
 		DFF9D0981D32379100D38ED8 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF9D0971D32379100D38ED8 /* NavigationController.swift */; };
 /* End PBXBuildFile section */
 
@@ -93,8 +92,6 @@
 		DF1CDF0B1CF05AB60006B594 /* Pandora-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pandora-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF1CDF0D1CF05AB60006B594 /* Pandora_tvOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pandora_tvOSTests.swift; sourceTree = "<group>"; };
 		DF1CDF0F1CF05AB60006B594 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DF1CDF1C1CF05C070006B594 /* FlatUIColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlatUIColors.swift; sourceTree = "<group>"; };
-		DF1CDF201CF05C3C0006B594 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		DF1CDF251CF05C620006B594 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		DF1CDF2A1CF05CA80006B594 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		DF1CDF2F1CF05CDC0006B594 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +100,11 @@
 		DF1CDF3C1CF05DD10006B594 /* CGUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGUtils.swift; sourceTree = "<group>"; };
 		DF1CDF3D1CF05DD10006B594 /* FontUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontUtils.swift; sourceTree = "<group>"; };
 		DF1CDF3E1CF05DD10006B594 /* Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+		DF68A85F1E7852DC0075CE70 /* FlatUI.Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlatUI.Colors.swift; sourceTree = "<group>"; };
+		DF68A8611E7852EA0075CE70 /* FlatUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlatUI.swift; sourceTree = "<group>"; };
+		DF68A8631E78532E0075CE70 /* Themes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Themes.swift; sourceTree = "<group>"; };
+		DF68A8651E78537F0075CE70 /* FlatUI.Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlatUI.Button.swift; sourceTree = "<group>"; };
+		DF68A8681E78546F0075CE70 /* Lato.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lato.swift; sourceTree = "<group>"; };
 		DFF05F1B1CF8D89500E397C6 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 		DFF9D08E1D3230D900D38ED8 /* Pandora.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = Pandora.podspec; sourceTree = "<group>"; };
 		DFF9D0971D32379100D38ED8 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
@@ -244,18 +246,11 @@
 		DF1CDF161CF05B900006B594 /* Themes */ = {
 			isa = PBXGroup;
 			children = (
-				DF1CDF1B1CF05BF20006B594 /* ColorPalettes */,
+				DF68A8631E78532E0075CE70 /* Themes.swift */,
+				DF68A8671E7854660075CE70 /* Fonts */,
+				DF68A85E1E7852DC0075CE70 /* FlatUI */,
 			);
 			path = Themes;
-			sourceTree = "<group>";
-		};
-		DF1CDF1B1CF05BF20006B594 /* ColorPalettes */ = {
-			isa = PBXGroup;
-			children = (
-				DF1CDF201CF05C3C0006B594 /* Colors.swift */,
-				DF1CDF1C1CF05C070006B594 /* FlatUIColors.swift */,
-			);
-			path = ColorPalettes;
 			sourceTree = "<group>";
 		};
 		DF1CDF241CF05C5A0006B594 /* Coordinator */ = {
@@ -294,6 +289,24 @@
 				DF1CDF3E1CF05DD10006B594 /* Localization.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		DF68A85E1E7852DC0075CE70 /* FlatUI */ = {
+			isa = PBXGroup;
+			children = (
+				DF68A8611E7852EA0075CE70 /* FlatUI.swift */,
+				DF68A85F1E7852DC0075CE70 /* FlatUI.Colors.swift */,
+				DF68A8651E78537F0075CE70 /* FlatUI.Button.swift */,
+			);
+			path = FlatUI;
+			sourceTree = "<group>";
+		};
+		DF68A8671E7854660075CE70 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DF68A8681E78546F0075CE70 /* Lato.swift */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -540,18 +553,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF68A8621E7852EA0075CE70 /* FlatUI.swift in Sources */,
+				DF68A8691E78546F0075CE70 /* Lato.swift in Sources */,
 				DFF9D0981D32379100D38ED8 /* NavigationController.swift in Sources */,
 				DF1CDF301CF05CDC0006B594 /* ViewController.swift in Sources */,
 				DF1CDF261CF05C620006B594 /* Coordinator.swift in Sources */,
-				DF1CDF1D1CF05C070006B594 /* FlatUIColors.swift in Sources */,
+				DF68A8601E7852DC0075CE70 /* FlatUI.Colors.swift in Sources */,
 				DF1CDF421CF05DD10006B594 /* CGUtils.swift in Sources */,
 				DF1CDF451CF05DD10006B594 /* FontUtils.swift in Sources */,
 				DF1CDF2B1CF05CA80006B594 /* UIColorExtension.swift in Sources */,
+				DF68A8641E78532E0075CE70 /* Themes.swift in Sources */,
 				DF1CDF481CF05DD10006B594 /* Localization.swift in Sources */,
 				DF1CDF341CF05CFA0006B594 /* UITableView+Reusable.swift in Sources */,
-				DF1CDF211CF05C3C0006B594 /* Colors.swift in Sources */,
 				DF1CDF3F1CF05DD10006B594 /* ApplicationDelegateUtils.swift in Sources */,
 				DF68A84B1E784B500075CE70 /* UIImageExtension.swift in Sources */,
+				DF68A8661E78537F0075CE70 /* FlatUI.Button.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -559,13 +575,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF1CDF1E1CF05C070006B594 /* FlatUIColors.swift in Sources */,
 				DF1CDF431CF05DD10006B594 /* CGUtils.swift in Sources */,
 				DF68A84C1E784B540075CE70 /* UIImageExtension.swift in Sources */,
 				DF1CDF461CF05DD10006B594 /* FontUtils.swift in Sources */,
 				DF1CDF2C1CF05CA80006B594 /* UIColorExtension.swift in Sources */,
 				DF1CDF491CF05DD10006B594 /* Localization.swift in Sources */,
-				DF1CDF221CF05C3C0006B594 /* Colors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -575,14 +589,12 @@
 			files = (
 				DF1CDF321CF05CDC0006B594 /* ViewController.swift in Sources */,
 				DF1CDF281CF05C620006B594 /* Coordinator.swift in Sources */,
-				DF1CDF1F1CF05C070006B594 /* FlatUIColors.swift in Sources */,
 				DF1CDF441CF05DD10006B594 /* CGUtils.swift in Sources */,
 				DF68A84D1E784B540075CE70 /* UIImageExtension.swift in Sources */,
 				DF1CDF471CF05DD10006B594 /* FontUtils.swift in Sources */,
 				DF1CDF2D1CF05CA80006B594 /* UIColorExtension.swift in Sources */,
 				DF1CDF4A1CF05DD10006B594 /* Localization.swift in Sources */,
 				DF1CDF361CF05CFA0006B594 /* UITableView+Reusable.swift in Sources */,
-				DF1CDF231CF05C3C0006B594 /* Colors.swift in Sources */,
 				DF1CDF411CF05DD10006B594 /* ApplicationDelegateUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

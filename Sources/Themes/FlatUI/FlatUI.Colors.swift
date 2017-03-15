@@ -23,11 +23,12 @@
 
 import UIKit
 
-extension Colors {
+extension Themes.FlatUI {
   
-  // Colors by FlatUI ( http://flatuicolors.com )
-  
-  public struct FlatUI {
+  public struct Colors {
+    
+    // Colors by FlatUI ( http://flatuicolors.com )
+    
     public static var Turquoise:    UIColor { get { return UIColor(rgba:"#1ABC9C") }}
     public static var GreenSea:     UIColor { get { return UIColor(rgba:"#16A085") }}
     
@@ -58,4 +59,5 @@ extension Colors {
     public static var Concrete:     UIColor { get { return UIColor(rgba:"#95A5A6") }}
     public static var Asbestos:     UIColor { get { return UIColor(rgba:"#7F8C8D") }}
   }
+  
 }
