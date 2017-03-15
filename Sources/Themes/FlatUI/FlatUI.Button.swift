@@ -79,10 +79,27 @@ extension Themes.FlatUI {
         case .small:  return UIFont.lato(12.0, style: .bold)
         }
       }
+      
+      public var defaultHeight: CGFloat {
+        switch self {
+        case .normal: return 45.0
+        case .small:  return 27.0
+        }
+      }
     }
+    
+    // MARK: Data & Configuration
+    
+    public private(set) var style: Style!
+    public private(set) var size: Size!
+    
+    // MARK: Init
     
     public convenience init(style: Style, size: Size = .normal) {
       self.init()
+      
+      self.style = style
+      self.size = size
       
       let normalBackgroundImage =       UIImage.pixel(color: style.normalBackgroundColor)
       let highlightedBackgroundImage =  UIImage.pixel(color: style.highlightedBackgroundColor)
@@ -99,6 +116,8 @@ extension Themes.FlatUI {
       clipsToBounds = true
       layer.cornerRadius = size.cornerRadius
       titleLabel?.font = size.font
+      
+      contentEdgeInsets = UIEdgeInsets(top: 6.0, left: 21.0, bottom: 6.0, right: 21.0)
     }
     
   }
