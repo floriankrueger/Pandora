@@ -49,6 +49,7 @@
 		DF68A8661E78537F0075CE70 /* FlatUI.Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF68A8651E78537F0075CE70 /* FlatUI.Button.swift */; };
 		DF68A8691E78546F0075CE70 /* Lato.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF68A8681E78546F0075CE70 /* Lato.swift */; };
 		DF68A8771E7997AE0075CE70 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF68A8761E7997AE0075CE70 /* TabBarController.swift */; };
+		DFAFF3371E857A0000736D56 /* UICollectionView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAFF3361E857A0000736D56 /* UICollectionView+Reusable.swift */; };
 		DFF9D0981D32379100D38ED8 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF9D0971D32379100D38ED8 /* NavigationController.swift */; };
 /* End PBXBuildFile section */
 
@@ -107,6 +108,7 @@
 		DF68A8651E78537F0075CE70 /* FlatUI.Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlatUI.Button.swift; sourceTree = "<group>"; };
 		DF68A8681E78546F0075CE70 /* Lato.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lato.swift; sourceTree = "<group>"; };
 		DF68A8761E7997AE0075CE70 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		DFAFF3361E857A0000736D56 /* UICollectionView+Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Reusable.swift"; sourceTree = "<group>"; };
 		DFF05F1B1CF8D89500E397C6 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 		DFF9D08E1D3230D900D38ED8 /* Pandora.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = Pandora.podspec; sourceTree = "<group>"; };
 		DFF9D0971D32379100D38ED8 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
@@ -279,6 +281,7 @@
 				DFF9D0971D32379100D38ED8 /* NavigationController.swift */,
 				DF68A8761E7997AE0075CE70 /* TabBarController.swift */,
 				DF1CDF331CF05CFA0006B594 /* UITableView+Reusable.swift */,
+				DFAFF3361E857A0000736D56 /* UICollectionView+Reusable.swift */,
 			);
 			path = UserInterface;
 			sourceTree = "<group>";
@@ -557,6 +560,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF68A8621E7852EA0075CE70 /* FlatUI.swift in Sources */,
+				DFAFF3371E857A0000736D56 /* UICollectionView+Reusable.swift in Sources */,
 				DF68A8771E7997AE0075CE70 /* TabBarController.swift in Sources */,
 				DF68A8691E78546F0075CE70 /* Lato.swift in Sources */,
 				DFF9D0981D32379100D38ED8 /* NavigationController.swift in Sources */,
